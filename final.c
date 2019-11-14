@@ -7,7 +7,7 @@ char flag = 0 ;
 void interrupt_handler () {
 	flag++ ;
 	printf("flag: %d\n", flag) ;
-	if( flag %2 ==0){ 
+	if( flag %2 ==1){ 
 		digitalWrite (0, HIGH) ; delay (500) ;
 	}
 	else{
